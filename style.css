@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  color: #183935;
+  background-color: #f0f5f4;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+.report {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  overflow-wrap: anywhere;
+}
+
+h1 {
+  margin: 0 0 1.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+.summary {
+  margin-bottom: 1.5rem;
+}
+
+.summary-card {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: calc(50% - 8px);
+  margin: 0 4px 8px 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid #bdd9d2;
+  border-radius: 0.5rem;
+  background-color: #e1f1ec;
+  color: #254843;
+}
+
+.summary-card strong {
+  font-size: 1.125rem;
+  color: #123e35;
+}
+
+.results {
+  border-top: 1px solid #bdd9d2;
+  padding-top: 1.25rem;
+}
+
+select,
+button {
+  min-height: 44px;
+  max-width: 100%;
+  margin: 0 0.25rem 0.25rem;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #6a817d;
+  border-radius: 0.375rem;
+  font: inherit;
+}
+
+select {
+  color: inherit;
+  background-color: #fff;
+}
+
+button {
+  color: #fff;
+  background-color: #145448;
+  border-color: #145448;
+  cursor: pointer;
+}
+
+select:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0c5f9e;
+  outline-offset: 2px;
+}
+
+.result-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.result-item {
+  margin-bottom: 0.5rem;
+  padding: 0.625rem 1rem;
+  border: 1px solid #ccddd9;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.result-name {
+  display: inline-block;
+  min-width: 6rem;
+  max-width: 100%;
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 30rem) {
+  .result-name {
+    display: block;
+    margin-right: 0;
+  }
+}
